@@ -1,0 +1,11 @@
+body {
+  font: "Kanit", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+.box {
+  background-color: lightblue;
+  border: 1px solid blue;
+  min-height: 50px;
+  font-size: 3em;
+}/*# sourceMappingURL=style.css.map */
