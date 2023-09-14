@@ -1,4 +1,6 @@
 function showClick() {
     let msg = alert('You clicked me!')
-    return msg
+    console.log('user succesfully logged in!')
+    // return msg
+
 }
