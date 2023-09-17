@@ -1,15 +1,21 @@
 
 $font-stack: 'Kanit', Tahoma, Geneva, Verdana, sans-serif;
 $primary-color: #333;
+$main-bgColor: #e1e1e1;
+$font-subHeading: #2b86fd;
 
 body{
     font: $font-stack;
     color: $primary-color;
+    background-color: $main-bgColor;
 }
 
 .box{
-    background-color: lightblue;
-    border: 1px solid blue;
-    min-height: 50px;
-    font-size: 3em;
+    background-color: #f7f7f7;
+    // min-height: 50px;
+    h2{
+        font-weight: 200;
+        font-size: 2.5em;
+        color: $font-subHeading;
+    }
 }
