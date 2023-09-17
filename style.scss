@@ -18,4 +18,17 @@ body{
         font-size: 2.5em;
         color: $font-subHeading;
     }
+    .forgotPswrd{
+        text-decoration: none;
+        color: $font-subHeading;
+        font-weight: 600;
+        font-size: small;
+    }
+    .forgotPswrd:hover{
+        cursor: pointer;
+    }
 }
+.inputBorder{
+    border-color: #2b86fd;
+}
+
