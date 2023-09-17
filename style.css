@@ -15,11 +15,16 @@ body {
 .box .forgotPswrd {
   text-decoration: none;
   color: #2b86fd;
-  font-weight: 600;
+  font-weight: 700;
   font-size: small;
 }
 .box .forgotPswrd:hover {
   cursor: pointer;
+}
+.box #usrPassword, .box #userName {
+  background-color: #f7f7f7;
+  outline: none;
+  outline-color: none;
 }
 
 .inputBorder {

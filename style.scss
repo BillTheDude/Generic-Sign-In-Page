@@ -12,6 +12,13 @@ body{
 
 .box{
     background-color: #f7f7f7;
+    // img{
+    //     max-width: 50%;
+    //     height: auto;
+    //     display: block;
+    //     margin-left: auto;
+    //     margin-right: auto;
+    // }
     // min-height: 50px;
     h2{
         font-weight: 200;
@@ -21,11 +28,16 @@ body{
     .forgotPswrd{
         text-decoration: none;
         color: $font-subHeading;
-        font-weight: 600;
+        font-weight: 700;
         font-size: small;
     }
     .forgotPswrd:hover{
         cursor: pointer;
+    }
+    #usrPassword, #userName{
+        background-color: #f7f7f7;
+        outline: none;
+        outline-color: none;
     }
 }
 .inputBorder{
