@@ -29,20 +29,20 @@
             <h2 class="mb-4 text-center">Welcome!</h2>
             <div class="form-floating has-validation">
                 <input type="text" class="inputBorder form-control mb-2 rounded-0 border-0 border-bottom border-2" id ="userName" placeholder="Username or email" required>
-                <label for="user">Username</label>
+                <label for="userName">Username</label>
                 <!--TODO: Add validation feedback for user authentication-->
                 <!--TODO: Change border when input box is selected-->
             </div> 
             <div class="form-floating">
                 <input type="password" class="inputBorder form-control mb-4 rounded-0 border-0 border-bottom border-2" id ="usrPassword" placeholder="Password" required>
-                <label for="pwrd">Password</label>
+                <label for="usrPassword">Password</label>
             </div> 
             <div class="mb-sm-3 mt-sm-3">
                 <p><a href="" class="forgotPswrd">Forgot password?</a></p>
             </div>
             <div class="d-grid gap-3" >
                 <button type="button" class="btn btn-primary rounded-0" onclick="showClick()">Sign In</button>
-                <button type="button" class="btn btn-outline-primary rounded-0">Sign Up</button>
+                <button type="button" class="btn btn-outline-primary rounded-0" onclick="signUp()">Sign Up</button>
             </div>
 
         </div>

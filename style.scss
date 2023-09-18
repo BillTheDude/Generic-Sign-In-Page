@@ -36,11 +36,12 @@ body{
     }
     #usrPassword, #userName{
         background-color: #f7f7f7;
-        outline: none;
+        outline: none !important;
         outline-color: none;
     }
-}
-.inputBorder{
-    border-color: #2b86fd;
-}
+    .inputBorder:focus{
+        border-color: #2b86fd !important;
+    }
+
+}    
 

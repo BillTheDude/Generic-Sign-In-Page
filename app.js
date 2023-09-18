@@ -4,3 +4,8 @@ function showClick() {
     // return msg
 
 }
+
+function signUp(){
+    let msg = alert('Redirecting you to Sign Up.')
+    console.log('Creating new username')
+}

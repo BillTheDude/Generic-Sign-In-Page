@@ -23,10 +23,9 @@ body {
 }
 .box #usrPassword, .box #userName {
   background-color: #f7f7f7;
-  outline: none;
+  outline: none !important;
   outline-color: none;
 }
-
-.inputBorder {
-  border-color: #2b86fd;
+.box .inputBorder:focus {
+  border-color: #2b86fd !important;
 }/*# sourceMappingURL=style.css.map */
