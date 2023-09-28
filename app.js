@@ -1,13 +1,12 @@
 function showClick() {
     let msg = alert('You clicked me!')
-    window.location.href = "logged.html";
+    window.location.replace("logged.html")
     console.log('Login successful!')
-    // return msg
 
 }
 
 function signUp(){
     let msg = alert('Redirecting you to Sign Up.')
-
+    window.location.replace(signUp.html)
     console.log('Creating new username')
 }
