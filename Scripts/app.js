@@ -1,6 +1,6 @@
 function showClick() {
     let msg = alert('You clicked me!')
-    window.location.replace("logged.html")
+    window.location.replace("http://127.0.0.1:5500/logged.html")
     console.log('Login successful!')
 
 }
