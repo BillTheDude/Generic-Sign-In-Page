@@ -3,13 +3,19 @@ $font-stack: 'Kanit', Tahoma, Geneva, Verdana, sans-serif;
 $primary-color: #333;
 $main-bgColor: #f1f1f1;
 $font-subHeading: #2b86fd;
+$divider-color: #717171;
 
 body{
     font: $font-stack;
     color: $primary-color;
     background-color: $main-bgColor;
+
+    img{
+        border-radius: 50%;
+    }
+
 }
 
 .mainContainer{
-    background-color: #fee0e0;
+    background-color: #fbfbfb;
 }

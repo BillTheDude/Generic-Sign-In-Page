@@ -3,7 +3,10 @@ body {
   color: #333;
   background-color: #f1f1f1;
 }
+body img {
+  border-radius: 50%;
+}
 
 .mainContainer {
-  background-color: #fee0e0;
+  background-color: #fbfbfb;
 }/*# sourceMappingURL=userLogged.css.map */
