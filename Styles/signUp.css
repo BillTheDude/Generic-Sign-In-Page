@@ -2,4 +2,20 @@ body {
   font: "Kanit", Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   background-color: #f1f1f1;
+}
+
+.box {
+  background-color: #fdfdfd;
+}
+
+h2 {
+  color: #2b86fd;
+  font-size: 2.5em;
+  font-weight: 200;
+}
+
+#usrPassword, #usrEmail {
+  background-color: #fdfdfd;
+  outline: none !important;
+  outline-color: none;
 }/*# sourceMappingURL=signUp.css.map */

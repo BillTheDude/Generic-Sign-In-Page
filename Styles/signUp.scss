@@ -9,3 +9,16 @@ body{
     color: $primary-color;
     background-color: $main-bgColor;
 }
+.box{
+    background-color: #fdfdfd;
+}
+h2{
+    color: $font-subHeading;
+    font-size: 2.5em;
+    font-weight: 200;
+}
+#usrPassword, #usrEmail{
+    background-color: #fdfdfd;
+    outline: none !important;
+    outline-color: none;
+}
