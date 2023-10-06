@@ -16,6 +16,15 @@ body{
 
 }
 
+a:hover{
+    text-decoration: underline !important;
+    background-color: #2885ff;
+    border-radius: 8px;
+}
+a:focus{
+    color: red;
+}
+
 .mainContainer{
     background-color: #fbfbfb;
 }
